@@ -176,7 +176,8 @@ header {
     overflow-y: hidden;
     /*background: url("../img/bg-pattern.png"), #7b4397;*/
     /* fallback for old browsers */
-    background: url("../img/bckg.jpeg");
+    /* background: url("../img/AR-VR-Rwanda_meetup-logo_brandmark0.png");*/
+	background-color: #eda96c;
     /*#7b4397*/
     /*background: url("../img/bckg.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);*/
     /* Chrome 10-25, Safari 5.1-6 */
