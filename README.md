@@ -1,4 +1,4 @@
-# AR VR Rwanda
+# AI Rwanda
 ## The next generation virtually augmented community of learning and community of practice
 
 # Inspired by [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
