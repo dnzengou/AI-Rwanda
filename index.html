@@ -22,6 +22,14 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- materialize css -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -60,7 +68,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <img src="img/android-chrome-189x77.png">
+                <img src="img/android-chrome-135x52.png">
                 <a href="#"></a>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -84,8 +92,9 @@
 
 
     <!--<header class="typewriter">-->
-    <header>
-        <div class="container">
+		
+        <section>
+	
             <div class="row">
                 <div class="col-sm-7">
                     <div class="header-content">
@@ -112,9 +121,26 @@
                 </div>
             </div>
         </div>
-    </header>
-	
-	</div>
+		
+        </section>
+		
+        <div class="container">
+
+  <a class="btn-floating btn-large waves-effect waves-light red" onclick="document.getElementById('id01').style.display='block'" title="SUPPORT US !"><i class="material-icons">card_giftcard</i></a>
+  
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container" style="text-align:center">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+    <h4>Want to contribute to our <a href="img/android-chrome-280x127.png">AI Community</a>?</h4>
+	<img src="img/indiegogo_crowdfunding.png">
+    <h4>Check Agenda<a href="#">HERE</a> !</h4>
+	  </div>
+    </div>
+  </div>
+  
+  </div>
 
     <!--<section id="contact" class="contact bg-primary">
         <div class="container">
@@ -149,9 +175,13 @@
             </ul>
         </div>
     </footer>
+	
+	</div>
 
-    <!-- jQuery -->
-    <script src="js/particles.js"></script>
+</body>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	
     <script src="js/jquery.min.js"></script>
 
@@ -163,7 +193,12 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+	
 
-</body>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.json loaded...');
+        });
+    </script>
 
 </html>
