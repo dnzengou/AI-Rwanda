@@ -1,0 +1,73 @@
+{
+    "particles": {
+        "number": {
+            "value": 300
+        },
+        "color": {
+            "value": "#b38186"
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 0,
+                "color": "#b38186"
+            },
+            "ploygon": {
+                "nb_sides": 4
+            },
+            "image": {
+                "src": "img/android-chrome-189x77.png"
+            }
+        },
+        "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 1
+            }
+        },
+        "size": {
+            "value": 5,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 25
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 120,
+            "color": "#b38186",
+            "width": 1
+        },
+        "move": {
+            "enable": true,
+            "speed": 4,
+            "direction": "bottom-right",
+            "straight": false
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "bubble"
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 50,
+                "duration": 0.4
+            },
+            "bubble": {
+                "distance": 100,
+                "size": 10
+            }
+        }
+    }
+}
